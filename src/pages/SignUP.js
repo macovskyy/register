@@ -19,7 +19,7 @@ const SignUP = () => {
                     <input type="text" className="password" id="password" placeholder="Password" type='password' />
                 </div>
 
-                <button>Enter</button>
+                <button>Send</button>
 
                 <p className="SignUP">If you have account already, you can Sign In</p>
 
