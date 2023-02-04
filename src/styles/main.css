@@ -1,0 +1,105 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #593AD4;
+  max-height: 100vh;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sign {
+  max-width: 500px;
+  height: 550px;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.sign p {
+  margin: 5px;
+}
+
+.sign h1 {
+  max-width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35px;
+  margin-bottom: 14px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #384661;
+}
+
+@media screen and (max-width: 1440px) {
+  .sign h1 {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sign {
+    max-width: 310px;
+    height: 480px;
+  }
+
+  .sign h1 {
+    font-size: 30px;
+  }
+}
+
+.sign input {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: #29467C;
+  border: none;
+  outline: none;
+  width: 64%;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.sign input:active, .sign input:hover, .sign input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.sign .loginForm {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  width: 100px;
+  height: 42px;
+  background-color: #D7D7D7;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #384661;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 21px;
+  margin-bottom: 10px;
+}
+
+.sign .SignUP a{
+  font-size: 15px;
+  margin-top: 35px;
+  transition: 0.5s;
+  color: #000;
+}
+
+.sign .SignUP a:hover {
+  color: #29467C;
+}
