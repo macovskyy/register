@@ -1,4 +1,5 @@
 import user from "../img/user.png"
+import { NavLink } from "react-router-dom";
 
 const SignIN = () => {
     return (
@@ -17,7 +18,7 @@ const SignIN = () => {
 
                 <button>Enter</button>
 
-                <p className="SignUP">If you have no account, you can Sign Up</p>
+                <p className="SignUP">If you have no account, you can <NavLink to="/SignUP"> Sign UP </NavLink></p>
 
                 <script src="/script.js"></script>
             </div>

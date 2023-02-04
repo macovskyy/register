@@ -73,10 +73,15 @@ body {
   outline-offset: 0;
 }
 .sign .loginForm {
-  display: flex;
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+.sign .loginForm input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 
 button {
   font-family: "Montserrat", sans-serif;
@@ -89,8 +94,7 @@ button {
   color: #384661;
   font-size: 30px;
   font-weight: 600;
-  margin-top: 21px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .sign .SignUP a{

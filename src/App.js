@@ -3,7 +3,7 @@ import SignIN from "./pages/SignIN"
 import SignUP from "./pages/SignUP"
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Nav from "./components/Nav";
+import Nav from "./components/Navigation/Nav";
 import ScrollToTop from "./util/scrollToTop";
 
 function App() {
